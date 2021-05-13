@@ -39,17 +39,6 @@
 </head>
 
 <body>
-
-  <script>  
-    (function(d, s, id){
-       var js, mpesa = d.getElementsByTagName(s)[0];
-       if (d.getElementById(id)) {return;}
-       js = d.createElement(s); js.id = id;
-       js.src = "https://cdn.jsdelivr.net/gh/muaad/mpesa_button@master/src/button.min.js";
-       mpesa.parentNode.insertBefore(js, mpesa);
-     }(document, 'script', 'mpesa_btn_js'));
-  </script>
-
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container">
@@ -184,9 +173,7 @@
               </div>
             </div>
 
-            <div id='mpesaButton' data-phone='254708403630' data-amount=30 data-url='https://domain.com/mpesa/payments/request'></div>
-
-
+          
             <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
               <div class="row">
                 <div class="col-md-6 form-group">
